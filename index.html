@@ -1,9 +1,8 @@
-
-  <!--<div-expand-lg !DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Portfoilo for  </title>
+  <title>Portfoilo </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -63,6 +62,12 @@
       background: url(https://images.pexels.com/photos/371900/pexels-photo-371900.jpeg) no-repeat 10% 10%; opacity: 0.2
       color: #10108b;
   }
+
+  .navbar-collapse {
+  border-top: 1px;
+  opacity: 0.3;
+  }
+
   .bg-1 h3 {color: #fff;}
   .bg-1 p {font-style: italic;}
   .list-group-item:first-child {
@@ -106,7 +111,12 @@
   .nav-tabs li a {
       color: #777;
   }
-
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -161,19 +171,18 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="100">
 <!-- fixed navigation with logo -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <a class="navbar-brand" href="#">
+<nav class="navbar navbar-default navbar-fixed-top ">
+  <a class="navbar-brand" href="#page-top"><img src="./img/logo.png" class="rounded float-right" width="141" height="55" alt="">
+</a>
         <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".collapse.navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-            </div>
-<img src="./img/logo.png" class="rounded float-right" width="141" height="55" alt="">
-</a>        
+        </div>
+        
 <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar">
         <li><a href="#myPage">HOME</a></li>
@@ -214,7 +223,7 @@
       </div>
 	</div>
 
-</div>
+
 
 
 <!-- Container (The Band Section) -->
