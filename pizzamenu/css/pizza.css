@@ -1,0 +1,175 @@
+
+h1 {
+	line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgba(192, 7, 41, 0.95);
+}
+
+#fullMenu {
+    border: 1px solid;
+	border-radius: 15px 15px 15px 15px;
+    padding: 25px;
+    margin: 25px;
+	width: 100%;
+}
+
+.total {
+	color: #fff;
+	display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row; /* Safari 6.1+ */
+    display: flex;
+	width: 250px;
+    padding: 0 0 0px 10px;
+	color: black;
+}
+
+#totalPrice2 {
+	width: 50px;
+	margin-top: 53px;
+	padding: 0 20px 20px 0px;
+}
+
+.size {
+    border: 5px solid black;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.crust {
+	border: 5px solid black;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.veggies {
+    border: 5px solid black;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.meats {
+	border: 5px solid black;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.sauce {
+    border: 5px solid black;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.cheese{
+    border: 5px solid black;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.button {
+	background-color: rgba(192, 7, 41, 0.95);
+	box-shadow: 0 0 0 2px rgba(255,255,255, .8);
+	transition-property: transform background, box-shadow, color;
+	transition-duration: .3s, .5s, .2s;
+	transition-timing-function: eas-in-out;
+}
+
+.button>p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.button:hover {
+	font: 18px sans-serif;
+	font-weight: bold;
+	color: #000;
+	background-color: rgba(255, 255, 255, .6);
+	
+}
+
+#cart {
+	margin: 10px auto;
+	width: 100%;
+}
+
+#showText2 {
+	font-size: 15px;
+	width: 50px;
+	text-align: left;
+	padding: 20px;
+}
+
+@media screen and (min-width: 601px) {
+
+
+h1 {	
+    font-size: 40px;
+}
+
+.divContent {
+	box-sizing: content-sizing;
+	width: 850px;
+}
+
+#frmMenu {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius: 25px;
+}
+
+#container {
+	opacity: 0.95;
+	width: 850px;
+}
+
+body {
+	background-color: #fff;
+	width: 700px;
+}
+
+#showText1 {
+	font-size: 12px;
+	width: 105px;
+	text-align: left;
+	margin-right: 15px;
+	padding: 20px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.menu>H3 {
+	color: #fff;
+	padding: 0 0 0 60px;
+	margin: 0 auto;
+	background-color: rgba(42, 76, 132, .8);
+	border-radius: 25px 25px 0 0;
+	text-shadow: 1.5px 1.5px 5px #00f, 1px 1px 5px #000;
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 14px
+}
+
+#title1 {
+	color: #fff;
+    width: 50px;
+    padding: 0 0 0px 10px;
+    color: black;
+}
+
+#title2 {
+	color: #fff;
+    width: 50px;
+    padding: 0 0 0px 10px;
+	color: black;
+}
+}
+
